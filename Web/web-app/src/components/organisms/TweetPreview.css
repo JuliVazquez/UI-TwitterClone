@@ -1,0 +1,205 @@
+.box-tweet {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #5e5e5e;
+  border-right: 1px solid #5e5e5e;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.box-retweet {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.box-tweet:hover {
+  background-color: #5a6170;
+}
+
+.tweet-info {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.user-info {
+  display: flex;
+  align-items: baseline;
+  margin-top: -10px;
+}
+
+.username-tweet {
+  font-weight: bold;
+  margin-right: 5px;
+  margin-top: 10px;
+  color: white;
+}
+
+.user-id {
+  color: #999;
+}
+
+.content {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white;
+  margin-top: -10px;
+}
+
+.time-ago {
+  color: #999;
+  font-size: 1rem;
+}
+
+.tweet-image {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.tweet-stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.reply-button,
+.retweet-button,
+.like-button {
+  display: flex;
+  align-items: center; /* Alinea verticalmente los elementos */
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.stat-item {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.stat-item:first-child {
+  margin-left: -50px;
+}
+
+.stat-item i {
+  margin-right: 55px;
+}
+
+.stat-item:hover {
+  color: #1da1f2;
+}
+
+.heart-icon {
+  color: white;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.replies-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.retweet-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-tweet {
+  color: white;
+  font-size: 0.9rem;
+  margin-top: -10px;
+}
+
+.like-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #999;
+}
+
+.like-button:hover {
+  color: #1da1f2;
+}
+
+.like-button.liked {
+  color: red;
+}
+
+.custom-retweet-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: #999;
+}
+
+.custom-retweet-button:hover {
+  color: #1da1f2; /* Cambia el color a verde cuando recibe el foco */
+}
+
+.reply-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #999;
+  display: flex;
+  align-items: center;
+}
+
+.reply-button:hover {
+  color: #1da1f2;
+}
+
+.reply-button:focus {
+  outline: none;
+}
+
+.reply-button .svg-inline--fa {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.reply-button:hover span {
+  color: #1da1f2;
+}
+
+.reply-button:focus span {
+  color: #1da1f2;
+}
+
+.reply-button:hover,
+.reply-button:focus {
+  background-color: transparent;
+}
+
+.gray-text {
+  color: gray;
+}

@@ -1,0 +1,45 @@
+.users-to-follow-container {
+  background-color: #202a36;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  margin-top: 8px;
+}
+
+.users-to-follow {
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-item span {
+  cursor: pointer;
+  flex-grow: 1;
+  margin-left: 8px;
+  font-size: 20px;
+}
+
+.follow-button-user-layout {
+  background-color: rgb(30, 39, 50);
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid #868686;
+  margin-left: -30px;
+}
+
+.follow-button-user-layout:hover {
+  background-color: #2094e4;
+}
+
+
+

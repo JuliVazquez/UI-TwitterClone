@@ -1,0 +1,35 @@
+:root {
+  height: 100%;
+}
+
+html {
+  font-size: 15px;
+  background-color: rgb(30, 39, 50);
+  height: 100%;
+  font-family: "Segoe UI Bold", sans-serif;
+}
+
+:root,
+body {
+  height: 100%;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+a:focus {
+  text-decoration: none;
+  color: grey;
+}

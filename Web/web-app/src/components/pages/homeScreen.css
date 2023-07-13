@@ -1,0 +1,12 @@
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loading-image {
+  max-width: 220px;
+  max-height: 220px;
+  border-radius: 100%;
+}

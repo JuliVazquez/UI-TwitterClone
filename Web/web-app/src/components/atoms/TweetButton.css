@@ -1,0 +1,20 @@
+.tweet-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2094e4;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  height: 40px;
+  width: 190px;
+  margin-top: 20px;
+}
+
+.tweet-button-text {
+  margin: 0;
+  text-align: center;
+  font-family: "Segoe UI Bold", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}

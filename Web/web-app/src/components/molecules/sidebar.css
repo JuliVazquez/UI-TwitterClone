@@ -1,0 +1,31 @@
+.twitter-logo {
+  padding-left: 17px;
+  padding-top: 17px;
+}
+
+.button-menu {
+  display: flex;
+  flex-direction: row;
+  padding: 17px;
+  line-height: 24px;
+}
+
+.button-text {
+  margin-left: 40px;
+  text-decoration: none;
+  position: absolute;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.side-menu::after {
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  background-color: gray;
+}

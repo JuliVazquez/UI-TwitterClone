@@ -1,0 +1,107 @@
+.twitter-login-box {
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: "Segoe UI Bold", sans-serif;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 22px;
+  padding: 170px 110px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+.twitter-login-box input {
+  width: 80%;
+  background: transparent;
+  border: 1px solid gray;
+  outline: 0;
+  padding: 18px 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+::placeholder {
+  font-weight: 500;
+  color: grey;
+}
+
+.twitter-login-box button {
+  width: 80%;
+  padding: 11px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 40px;
+  border-radius: 30px;
+  background: transparent;
+  border: 1px solid #999;
+  cursor: pointer;
+}
+
+.twitter-login-box form button {
+  background: white;
+  color: black;
+  border: 0;
+  margin-bottom: 15px;
+}
+
+.signup-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.signup-link__text {
+  font-size: 14px;
+}
+
+.signup-link__register {
+  margin-left: 5px;
+  color: skyblue;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.signup-link__register:hover {
+  text-decoration: underline;
+}
+
+.signup-link__text {
+  color: white;
+}
+
+.login-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.2;
+  margin-left: 30px;
+}
+
+.error-box {
+  background-color: #2094e4;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  padding: 4px;
+  margin-top: 30px;
+}
+
+.twitter-login-box input[type="text"],
+.twitter-login-box input[type="password"] {
+  color: whitesmoke;
+}
+
+.input-tweet-box__actions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.input-tweet-box__button {
+  margin-left: auto;
+}

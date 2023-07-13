@@ -1,0 +1,140 @@
+html {
+  font-size: 15px;
+  background-color: rgb(30, 39, 50);
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.general-container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  align-items: flex-top;
+  height: 100vh;
+  padding-top: 15px;
+}
+
+.buttons-list-menu {
+  margin-right: 150px;
+}
+
+.side-menu {
+  position: fixed;
+  top: 50px;
+  left: 200;
+  width: 300px;
+}
+
+.center-box {
+  width: 45%;
+  height: 100%;
+  margin-left: 25%;
+}
+
+.center-box::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: #5e5e5e;
+}
+
+@media screen and (max-width: 768px) {
+  .general-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .side-menu {
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  .center-box {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .center-box::before {
+    display: none;
+  }
+}
+
+.right-side-menu{
+  position: fixed;
+  top: 50px;
+  left: 200;
+  width: 300px;
+  margin-left: 15px;
+}
+.button-logout {
+  top: 25%;
+  left: 56%;
+  width: 120px;
+  height: 35px;
+  font-size: 16px;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(30, 39, 50);
+  border: 1px solid #868686;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.button-logout:hover {
+  background-color: #64040c;
+  border: 2px solid #cc070d;
+}
+
+.tweet-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  z-index: 9999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tweet-popup-textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tweet-popup-button {
+  background-color: #1da1f2;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tweet-popUp-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

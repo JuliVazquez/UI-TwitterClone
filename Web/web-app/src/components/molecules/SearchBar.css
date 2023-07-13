@@ -1,0 +1,32 @@
+.search-bar {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 3px;
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #868686;
+  border-radius: 14px;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  color: white;
+  margin-left: 1px;
+}
+
+.search-button {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  border-radius: 50%; /* Hace que el borde del botón sea completamente redondo */
+  padding: 8px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0d8bf0;
+}

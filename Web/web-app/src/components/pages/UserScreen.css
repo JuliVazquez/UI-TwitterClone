@@ -1,0 +1,139 @@
+.user-profile {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  border-bottom: 2px solid rgb(88, 88, 88);
+  border-right: 0.5px solid rgb(88, 88, 88);
+}
+.user-profile::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: #5e5e5e;
+}
+
+.background-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.profile-picture {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  z-index: 1;
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid rgb(88, 88, 88);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.username {
+  position: absolute;
+  top: 60%;
+  left: 2%;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.id-profile {
+  position: absolute;
+  top: 70%;
+  left: 2%;
+  font-size: 16px;
+  color: rgb(182, 182, 182);
+}
+
+.followers,
+.following {
+  position: absolute;
+  top: 80%;
+  font-size: 16px;
+  color: white;
+}
+
+.followers {
+  left: 2%;
+}
+
+.following {
+  left: 40%;
+}
+
+.user-tweets {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.container-profile::after {
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  background-color: gray;
+}
+
+.follow-button {
+  position: absolute;
+  top: 25%;
+  left: 56%;
+  transform: translateX(-50%);
+  width: 250px;
+  height: 35px;
+  font-size: 16px;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(30, 39, 50);
+  border: 1px solid #868686;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.following-button:after {
+  content: "Siguiendo";
+}
+
+.following-button:hover:after {
+  content: "Dejar de seguir";
+  color: #e4242c;
+}
+.following-button:hover {
+  background-color: #64040c;
+  border: 2px solid #e4242c;
+}
+
+.not-following-button:after {
+  content: "Seguir";
+}
+
+.not-following-button:hover:after {
+  content: "Seguir";
+}
+
+.not-following-button,
+.not-following-button:hover {
+  color: black;
+}
+.not-following-button {
+  background-color: white;
+}
+
+.not-following-button:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+@media only screen and (max-width: 1280px) {
+  .followers {
+    left: 2%;
+  }
+  .following {
+    left: 40%;
+  }
+}
